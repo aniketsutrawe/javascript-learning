@@ -4,23 +4,25 @@
 
 // Stack (Primitive), Heap (Non Primitive)
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 // Stack : String, Number, Boolean, null, undefined, Symbol, bigInt
 
 let stringIs = "This is an String."
 
 let numberIs = 23; //this is number.
 
-// true = 1  / false = 0 //these are boolean
+true = 1  / false = 0 //these are boolean
 
-// null // null is not empty there is nothing litrally nothing 
+null // null is not empty there is nothing litrally nothing 
 
-// let score;     //this is undefined space is allocataed to variable but diden't know the value
+let score;     //this is undefined space is allocataed to variable but diden't know the value
 
-// Sumbol // is used to uniquely identify the data
-// let id1 = Symbol('123')  
-// let id2 = Symbol('123') //both values are same but due to symbol they are not same hence they are unique 
+Sumbol // is used to uniquely identify the data
+let id1 = Symbol('123')  
+let id2 = Symbol('123') //both values are same but due to symbol they are not same hence they are unique 
 
-// let bigNumber = 55455245662554551148n //using the last 'n' after the value converts the int to bigInt (increases the range of int type)
+let bigNumber = 55455245662554551148n //using the last 'n' after the value converts the int to bigInt (increases the range of int type)
 
 
 
