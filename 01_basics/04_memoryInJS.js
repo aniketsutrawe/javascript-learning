@@ -12,7 +12,7 @@ let stringIs = "This is an String."
 
 let numberIs = 23; //this is number.
 
-true = 1  / false = 0 //these are boolean
+// true = 1  / false = 0 //these are boolean
 
 null // null is not empty there is nothing litrally nothing 
 
