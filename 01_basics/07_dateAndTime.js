@@ -19,8 +19,16 @@ let myTimeStamp = Date.now()
 // console.log(Math.floor(Date.now()/1000));
 
 let newDate = new Date()
-console.log(newDate);
-console.log(newDate.getMonth() + 1);
-console.log(newDate.getDay());
+// console.log(newDate);
+// console.log(newDate.getMonth() + 1);
+// console.log(newDate.getDay());
 
 // `${newDate.getDay()} and the time `
+
+
+let currdate = newDate.toLocaleString('default', {
+    // weekday: "long",
+    dateStyle: "medium",
+})//we can get any type of customization with this object
+
+console.log(currdate);
