@@ -9,7 +9,7 @@ const dc_heros = ["superman", "flash", "batman"]
 // const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 
-const all_new_heros = [...marvel_heros, ...dc_heros] //sprade operator = a glass we are holding if the glass falls it sprades on the floor sprade operator just dose like that it sprades every element
+const all_new_heros = [...marvel_heros, ...dc_heros] //sprade operator = a glass we are holding if the glass falls it sprades on the floor sprade operator just dose like that it sprades every element from an array.
 
 console.log(all_new_heros);
 
